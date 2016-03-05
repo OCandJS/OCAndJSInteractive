@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18B81F071C8817CC00D89807 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B81F061C8817CC00D89807 /* main.m */; };
+		18B81F0A1C8817CC00D89807 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B81F091C8817CC00D89807 /* AppDelegate.m */; };
+		18B81F0D1C8817CC00D89807 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B81F0C1C8817CC00D89807 /* ViewController.m */; };
+		18B81F101C8817CC00D89807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B81F0E1C8817CC00D89807 /* Main.storyboard */; };
+		18B81F121C8817CC00D89807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B81F111C8817CC00D89807 /* Assets.xcassets */; };
+		18B81F151C8817CC00D89807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B81F131C8817CC00D89807 /* LaunchScreen.storyboard */; };
+		18B81F201C8817CC00D89807 /* OCAndJSInteractiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B81F1F1C8817CC00D89807 /* OCAndJSInteractiveTests.m */; };
+		18B81F2B1C8817CC00D89807 /* OCAndJSInteractiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B81F2A1C8817CC00D89807 /* OCAndJSInteractiveUITests.m */; };
+		18B81F391C8818B600D89807 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 18B81F381C8818B600D89807 /* index.html */; };
+		18B81F3B1C88211300D89807 /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 18B81F3A1C88211300D89807 /* test.js */; };
+		18B81F3D1C88555600D89807 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B81F3C1C88555600D89807 /* JavaScriptCore.framework */; };
+		18B81F401C88557900D89807 /* ViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B81F3F1C88557900D89807 /* ViewControllerTwo.m */; };
+		18B81F431C885AB600D89807 /* TestJSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B81F421C885AB600D89807 /* TestJSObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18B81F1C1C8817CC00D89807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B81EFA1C8817CC00D89807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B81F011C8817CC00D89807;
+			remoteInfo = OCAndJSInteractive;
+		};
+		18B81F271C8817CC00D89807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B81EFA1C8817CC00D89807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B81F011C8817CC00D89807;
+			remoteInfo = OCAndJSInteractive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18B81F021C8817CC00D89807 /* OCAndJSInteractive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCAndJSInteractive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B81F061C8817CC00D89807 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18B81F081C8817CC00D89807 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18B81F091C8817CC00D89807 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18B81F0B1C8817CC00D89807 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18B81F0C1C8817CC00D89807 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18B81F0F1C8817CC00D89807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B81F111C8817CC00D89807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B81F141C8817CC00D89807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18B81F161C8817CC00D89807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B81F1B1C8817CC00D89807 /* OCAndJSInteractiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCAndJSInteractiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B81F1F1C8817CC00D89807 /* OCAndJSInteractiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCAndJSInteractiveTests.m; sourceTree = "<group>"; };
+		18B81F211C8817CC00D89807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B81F261C8817CC00D89807 /* OCAndJSInteractiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCAndJSInteractiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B81F2A1C8817CC00D89807 /* OCAndJSInteractiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCAndJSInteractiveUITests.m; sourceTree = "<group>"; };
+		18B81F2C1C8817CC00D89807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B81F381C8818B600D89807 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		18B81F3A1C88211300D89807 /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
+		18B81F3C1C88555600D89807 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		18B81F3E1C88557900D89807 /* ViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTwo.h; sourceTree = "<group>"; };
+		18B81F3F1C88557900D89807 /* ViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTwo.m; sourceTree = "<group>"; };
+		18B81F411C885AB600D89807 /* TestJSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestJSObject.h; sourceTree = "<group>"; };
+		18B81F421C885AB600D89807 /* TestJSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestJSObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B81EFF1C8817CC00D89807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B81F3D1C88555600D89807 /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B81F181C8817CC00D89807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B81F231C8817CC00D89807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B81EF91C8817CC00D89807 = {
+			isa = PBXGroup;
+			children = (
+				18B81F3C1C88555600D89807 /* JavaScriptCore.framework */,
+				18B81F041C8817CC00D89807 /* OCAndJSInteractive */,
+				18B81F1E1C8817CC00D89807 /* OCAndJSInteractiveTests */,
+				18B81F291C8817CC00D89807 /* OCAndJSInteractiveUITests */,
+				18B81F031C8817CC00D89807 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B81F031C8817CC00D89807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B81F021C8817CC00D89807 /* OCAndJSInteractive.app */,
+				18B81F1B1C8817CC00D89807 /* OCAndJSInteractiveTests.xctest */,
+				18B81F261C8817CC00D89807 /* OCAndJSInteractiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B81F041C8817CC00D89807 /* OCAndJSInteractive */ = {
+			isa = PBXGroup;
+			children = (
+				18B81F3A1C88211300D89807 /* test.js */,
+				18B81F381C8818B600D89807 /* index.html */,
+				18B81F081C8817CC00D89807 /* AppDelegate.h */,
+				18B81F091C8817CC00D89807 /* AppDelegate.m */,
+				18B81F0B1C8817CC00D89807 /* ViewController.h */,
+				18B81F0C1C8817CC00D89807 /* ViewController.m */,
+				18B81F0E1C8817CC00D89807 /* Main.storyboard */,
+				18B81F111C8817CC00D89807 /* Assets.xcassets */,
+				18B81F131C8817CC00D89807 /* LaunchScreen.storyboard */,
+				18B81F161C8817CC00D89807 /* Info.plist */,
+				18B81F051C8817CC00D89807 /* Supporting Files */,
+				18B81F3E1C88557900D89807 /* ViewControllerTwo.h */,
+				18B81F3F1C88557900D89807 /* ViewControllerTwo.m */,
+				18B81F411C885AB600D89807 /* TestJSObject.h */,
+				18B81F421C885AB600D89807 /* TestJSObject.m */,
+			);
+			path = OCAndJSInteractive;
+			sourceTree = "<group>";
+		};
+		18B81F051C8817CC00D89807 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B81F061C8817CC00D89807 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B81F1E1C8817CC00D89807 /* OCAndJSInteractiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				18B81F1F1C8817CC00D89807 /* OCAndJSInteractiveTests.m */,
+				18B81F211C8817CC00D89807 /* Info.plist */,
+			);
+			path = OCAndJSInteractiveTests;
+			sourceTree = "<group>";
+		};
+		18B81F291C8817CC00D89807 /* OCAndJSInteractiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18B81F2A1C8817CC00D89807 /* OCAndJSInteractiveUITests.m */,
+				18B81F2C1C8817CC00D89807 /* Info.plist */,
+			);
+			path = OCAndJSInteractiveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B81F011C8817CC00D89807 /* OCAndJSInteractive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B81F2F1C8817CC00D89807 /* Build configuration list for PBXNativeTarget "OCAndJSInteractive" */;
+			buildPhases = (
+				18B81EFE1C8817CC00D89807 /* Sources */,
+				18B81EFF1C8817CC00D89807 /* Frameworks */,
+				18B81F001C8817CC00D89807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCAndJSInteractive;
+			productName = OCAndJSInteractive;
+			productReference = 18B81F021C8817CC00D89807 /* OCAndJSInteractive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18B81F1A1C8817CC00D89807 /* OCAndJSInteractiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B81F321C8817CC00D89807 /* Build configuration list for PBXNativeTarget "OCAndJSInteractiveTests" */;
+			buildPhases = (
+				18B81F171C8817CC00D89807 /* Sources */,
+				18B81F181C8817CC00D89807 /* Frameworks */,
+				18B81F191C8817CC00D89807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B81F1D1C8817CC00D89807 /* PBXTargetDependency */,
+			);
+			name = OCAndJSInteractiveTests;
+			productName = OCAndJSInteractiveTests;
+			productReference = 18B81F1B1C8817CC00D89807 /* OCAndJSInteractiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18B81F251C8817CC00D89807 /* OCAndJSInteractiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B81F351C8817CC00D89807 /* Build configuration list for PBXNativeTarget "OCAndJSInteractiveUITests" */;
+			buildPhases = (
+				18B81F221C8817CC00D89807 /* Sources */,
+				18B81F231C8817CC00D89807 /* Frameworks */,
+				18B81F241C8817CC00D89807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B81F281C8817CC00D89807 /* PBXTargetDependency */,
+			);
+			name = OCAndJSInteractiveUITests;
+			productName = OCAndJSInteractiveUITests;
+			productReference = 18B81F261C8817CC00D89807 /* OCAndJSInteractiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B81EFA1C8817CC00D89807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZhangFan;
+				TargetAttributes = {
+					18B81F011C8817CC00D89807 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					18B81F1A1C8817CC00D89807 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18B81F011C8817CC00D89807;
+					};
+					18B81F251C8817CC00D89807 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18B81F011C8817CC00D89807;
+					};
+				};
+			};
+			buildConfigurationList = 18B81EFD1C8817CC00D89807 /* Build configuration list for PBXProject "OCAndJSInteractive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B81EF91C8817CC00D89807;
+			productRefGroup = 18B81F031C8817CC00D89807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B81F011C8817CC00D89807 /* OCAndJSInteractive */,
+				18B81F1A1C8817CC00D89807 /* OCAndJSInteractiveTests */,
+				18B81F251C8817CC00D89807 /* OCAndJSInteractiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B81F001C8817CC00D89807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B81F3B1C88211300D89807 /* test.js in Resources */,
+				18B81F151C8817CC00D89807 /* LaunchScreen.storyboard in Resources */,
+				18B81F391C8818B600D89807 /* index.html in Resources */,
+				18B81F121C8817CC00D89807 /* Assets.xcassets in Resources */,
+				18B81F101C8817CC00D89807 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B81F191C8817CC00D89807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B81F241C8817CC00D89807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B81EFE1C8817CC00D89807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B81F0D1C8817CC00D89807 /* ViewController.m in Sources */,
+				18B81F431C885AB600D89807 /* TestJSObject.m in Sources */,
+				18B81F0A1C8817CC00D89807 /* AppDelegate.m in Sources */,
+				18B81F071C8817CC00D89807 /* main.m in Sources */,
+				18B81F401C88557900D89807 /* ViewControllerTwo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B81F171C8817CC00D89807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B81F201C8817CC00D89807 /* OCAndJSInteractiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B81F221C8817CC00D89807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B81F2B1C8817CC00D89807 /* OCAndJSInteractiveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B81F1D1C8817CC00D89807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B81F011C8817CC00D89807 /* OCAndJSInteractive */;
+			targetProxy = 18B81F1C1C8817CC00D89807 /* PBXContainerItemProxy */;
+		};
+		18B81F281C8817CC00D89807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B81F011C8817CC00D89807 /* OCAndJSInteractive */;
+			targetProxy = 18B81F271C8817CC00D89807 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18B81F0E1C8817CC00D89807 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B81F0F1C8817CC00D89807 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18B81F131C8817CC00D89807 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B81F141C8817CC00D89807 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B81F2D1C8817CC00D89807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18B81F2E1C8817CC00D89807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B81F301C8817CC00D89807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OCAndJSInteractive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.zhangYing.OCAndJSInteractive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18B81F311C8817CC00D89807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OCAndJSInteractive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.zhangYing.OCAndJSInteractive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18B81F331C8817CC00D89807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OCAndJSInteractiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.zhangYing.OCAndJSInteractiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCAndJSInteractive.app/OCAndJSInteractive";
+			};
+			name = Debug;
+		};
+		18B81F341C8817CC00D89807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OCAndJSInteractiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.zhangYing.OCAndJSInteractiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCAndJSInteractive.app/OCAndJSInteractive";
+			};
+			name = Release;
+		};
+		18B81F361C8817CC00D89807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OCAndJSInteractiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.zhangYing.OCAndJSInteractiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OCAndJSInteractive;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18B81F371C8817CC00D89807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OCAndJSInteractiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.zhangYing.OCAndJSInteractiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OCAndJSInteractive;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B81EFD1C8817CC00D89807 /* Build configuration list for PBXProject "OCAndJSInteractive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B81F2D1C8817CC00D89807 /* Debug */,
+				18B81F2E1C8817CC00D89807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B81F2F1C8817CC00D89807 /* Build configuration list for PBXNativeTarget "OCAndJSInteractive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B81F301C8817CC00D89807 /* Debug */,
+				18B81F311C8817CC00D89807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B81F321C8817CC00D89807 /* Build configuration list for PBXNativeTarget "OCAndJSInteractiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B81F331C8817CC00D89807 /* Debug */,
+				18B81F341C8817CC00D89807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B81F351C8817CC00D89807 /* Build configuration list for PBXNativeTarget "OCAndJSInteractiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B81F361C8817CC00D89807 /* Debug */,
+				18B81F371C8817CC00D89807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B81EFA1C8817CC00D89807 /* Project object */;
+}
